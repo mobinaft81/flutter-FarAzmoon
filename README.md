@@ -1,16 +1,23 @@
-# fetrati_farazmoon
+# FarAzmoon Quiz App
 
-A new Flutter project.
+اپلیکیشن آزمون و ارزیابی آموزشی با Flutter (کراس‌پلتفرم iOS و Android)
 
-## Getting Started
+## توضیح پروژه
+اپلیکیشن اختصاصی برای مؤسسات آموزشی با قابلیت:
+- پنل مدیریت اساتید
+- آزمون‌های آنلاین برای دانش‌آموزان
+- پیگیری پیشرفت و امتیازدهی
+- backend با PocketBase
 
-This project is a starting point for a Flutter application.
+## تکنولوژی‌ها
+- Flutter 3.x
+- Dart
+- State Management: [Provider / Riverpod / Bloc - بنویس کدوم استفاده کردی]
+- Backend: PocketBase
+- REST API
+- Material Design + Responsive UI
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## نصب و اجرا
+```bash
+flutter pub get
+flutter run
